@@ -355,6 +355,7 @@ body{
         display: none;
 
     }
+
     .logo-1{
         width: 100px;
     }
@@ -481,7 +482,7 @@ body{
         margin: 25px 0px 10px 0px;
     }
 }
-@media(max-width: 470px){
+@media(max-width: 370px){
     .menu{
         padding: 20px;
         justify-content: space-between;
@@ -659,7 +660,7 @@ body{
     .menu-icono{
         position: relative;
         width: 50px;
-        left: 70%;
+        left: 40%;
     }
     .logo-1{
         width: 230px;
@@ -693,7 +694,7 @@ body{
         display: flex;
         width: 30%;
         color: #f2ee16;
-        left: 620px;
+        left: 274px;
         border-radius: 20px;
         
     }
@@ -737,7 +738,7 @@ body{
     }
     .slider-img img{
         margin-right:69px ;
-        width: 270px;
+        width: 180px;
     }
     .swiper-horizontal > .swiper-pagination-bullets,
     .swiper-pagination-bullets, .swiper-pagination-horizontal,
