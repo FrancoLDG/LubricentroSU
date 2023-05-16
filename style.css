@@ -663,7 +663,7 @@ body{
         left: 40%;
     }
     .logo-1{
-        width: 230px;
+        width: 90px;
     }
     .logo-2{
         width: 0;
@@ -738,7 +738,7 @@ body{
     }
     .slider-img img{
         margin-right:69px ;
-        width: 180px;
+        width: 128px;
     }
     .swiper-horizontal > .swiper-pagination-bullets,
     .swiper-pagination-bullets, .swiper-pagination-horizontal,
