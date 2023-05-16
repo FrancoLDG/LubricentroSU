@@ -101,9 +101,14 @@ body{
     padding: 13px;
     color: #FFFFFF;
     display: block;
+    transition: .5s ease;
 }
 .menu  .navbar ul li:hover{
-    color: #db241b;
+    color: #fcfcfc;
+    text-decoration: underline;
+}
+.menu .navbar ul li a{
+    color: #fafafa;
 }
 #menu {
     display: none;
@@ -159,6 +164,7 @@ body{
 .btn-1:hover{
     border: 2px solid #f3fb13;
     background-color: #f3fb13;
+    color: black;
 }
 .slider-img{
     width: 50%;
@@ -341,6 +347,170 @@ body{
     font-size: 16px;
     margin-bottom: 5px;
     display: inline-block;
+}
+@media(max-width: 321px){
+    .menu{
+        padding: 20px;
+        justify-content: space-between;
+    }
+    .menu-1{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 440px;
+    }
+    .menu-2{
+        display: none;
+
+    }
+    .menu-icono{
+        position: relative;
+        width: 50px;
+        left: 150px;
+    }
+    .logo-1{
+        width: 137px;
+    }
+    .logo-2{
+        width: 0;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 10%;
+        left: 0;
+        right: 0;
+        background-color: #181818;
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+        position: relative;
+        left: 223px;
+    }
+    .menu .navbar ul li {
+        font-size: 18px;
+        padding: 7px;
+        color: yellow;
+        display: block;
+    }
+    #menu:checked ~ .navbar{
+        display: flex;
+        width: 30%;
+        color: #f2ee16;
+        left: 190px;
+        top: 42px;
+        border-radius: 20px;
+        
+    }
+    .header-content{
+        padding: 30px;
+        margin-top: 100px;
+
+    }
+    .slider{
+        flex-direction: row;
+    }
+    .slider-txt{
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .slider-txt h1{
+        font-size: 20px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .slider-txt p{
+        font-size: 14px;
+    }
+    .botones{
+        width: 100;
+        margin-top: 80px;
+        display: flex;
+    }
+    .btn-1{
+        padding: 10px 25px;
+        font-size: 14px;
+        
+    }
+    .slider-img{
+        width: 100%;
+        text-align: center;
+
+    }
+    .slider-img img{
+        margin-right:69px ;
+        width: 128px;
+    }
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets, .swiper-pagination-horizontal,
+    .swiper-pagination-custom, .swiper-pagination-fraction{
+        bottom: -7px;
+    }
+    .tabs{
+        padding: 50px 30px;
+    }
+    .tabs label{
+        width: 33%;
+    }
+    .info{
+        padding: 30px;
+        flex-direction: column;
+    }
+    .info-img{
+        width: 100%;
+        text-align: center;
+    }
+    .info-img img{
+        width: 370px;
+        height: 200px;
+        margin-bottom: 25px;
+    }
+    .info-txt{
+        width: 100%;
+        text-align: center;
+    }
+    .info-txt h2{
+        font-size: 40px;
+
+    }
+    .info-txt p{
+        font-size: 16px;
+    }
+    .btn-1{
+        font-size: 16px;
+    }
+    .horario{
+        padding: 30px;
+        text-align: center;
+
+    }
+    .horario-info h2{
+        font-size: 50px;
+        margin-bottom: 15px;
+
+    }
+    .horario-txt {
+        flex-direction: column;
+    }
+    .socials{
+        justify-content: center;
+    }
+    .social img{
+        margin: 8px 0 0 0;
+    }
+    .footer{
+        padding: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .links h4{
+        margin: 25px 0px 10px 0px;
+    }
 }
 @media(max-width: 991px){
     .menu{
@@ -660,10 +830,10 @@ body{
     .menu-icono{
         position: relative;
         width: 50px;
-        left: 40%;
+        left: 80%;
     }
     .logo-1{
-        width: 90px;
+        width: 179px;
     }
     .logo-2{
         width: 0;
@@ -690,11 +860,14 @@ body{
         color: yellow;
         display: block;
     }
+    .menu .navbar ul li a{
+        color: #fafafa;
+    }
     #menu:checked ~ .navbar{
         display: flex;
         width: 30%;
         color: #f2ee16;
-        left: 274px;
+        left: 674px;
         border-radius: 20px;
         
     }
@@ -738,7 +911,7 @@ body{
     }
     .slider-img img{
         margin-right:69px ;
-        width: 128px;
+        width: 462px;
     }
     .swiper-horizontal > .swiper-pagination-bullets,
     .swiper-pagination-bullets, .swiper-pagination-horizontal,
@@ -806,6 +979,7 @@ body{
         margin: 25px 0px 10px 0px;
     }
 }
+
 html {
     scroll-behavior: smooth;
   }
